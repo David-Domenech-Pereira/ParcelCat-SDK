@@ -1,0 +1,17 @@
+{
+    "name": "sce-urv/parcel-cat-sdk",
+    "description": "A SDK to integrate with parcel-cat API",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "SceUrv\\ParcelCatSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Domenech",
+            "email": "david.domenech@urv.cat"
+        }
+    ],
+    "require": {}
+}
