@@ -8,6 +8,7 @@ class AbstractResponseDTO
     public const ERROR_ORDER_NOT_FOUND = -1;
     public const ERROR_INTERNAL_SERVER_ERROR = -99;
     public const ERROR_UNAUTHORIZED = -2;
+    public const ERROR_CODE_BAD_REQUEST = -3;
     private int $errorCode = self::ERROR_CODE_SUCCESS;
     private ?string $errorMessage = null;
 
