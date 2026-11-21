@@ -7,7 +7,7 @@ namespace SceUrv\ParcelCatSdk\v1\DTO\Entities;
 class DeliveryOrderDTO
 {
     private ?int $id = null;
-    private ?int $price = null;
+    private ?float $price = null;
     private string $pickupAddress;
     private string $pickupPostalCode;
     private string $pickupCity;
@@ -36,12 +36,12 @@ class DeliveryOrderDTO
         $this->id = $id;
     }
 
-    public function getPrice(): ?int
+    public function getPrice(): ?float
     {
         return $this->price;
     }
 
-    public function setPrice(?int $price): void
+    public function setPrice(?float $price): void
     {
         $this->price = $price;
     }
